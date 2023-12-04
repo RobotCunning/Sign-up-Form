@@ -3,7 +3,7 @@
     --font-color-one: rgba(247, 220, 163, 0.9);
     --font-color-two: #75EFE0;
     --bg-color-one: rgba(11, 32, 52, 0.6);
-    --bg-color-two: rgba(25, 56, 86, 0.755); 
+    --bg-color-two: rgba(17, 35, 54, 0.4); 
 }
 body{
     min-height: 100vh;
@@ -13,10 +13,14 @@ body{
     margin: 0;
     background-size: cover;
 }
-.column.right > form {
+.column-right > form {
     color: var(--bg-color-one);
 }
 
+.form-card-b{
+    background-color: rgba(11, 32, 52, 0.2);
+    box-shadow: 0px 0px 4px 0px var(--bg-color-two);
+}
 
 * {
     box-sizing: border-box;
