@@ -111,11 +111,14 @@ form > h3 {
     text-align: center;
 }
 input {
-    background-color: var(--test-font-color);
+    background-color: rgba(235, 235, 235, 0.5);
     padding: 3px 3px;
-    
+    width: 350px;
 }
-
+::placeholder{
+    color: var(--test-font-color);
+    font-style: italic
+}
 input:focus{
     outline: none !important;
     border:1px solid var(--font-color-one);
